@@ -3,6 +3,9 @@ let should = require('chai').should();
 let mydate1 = "1/1/2013";
 let mydate2 = "";
 let mydate3 = "1/1/20f3";
+
+// TODO: Add a date with inconsistent day / month, like 30/13, it should return false in dateIsRight UT
+
 let jsdom = require('jsdom');
 let dc = require('../js/app');
 
