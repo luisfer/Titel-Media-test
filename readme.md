@@ -47,7 +47,7 @@ myPromise().then(callback)
 `then()`s can be chainable, which makes code readable, eg:
 
 ```
-doSomethingAsync().then(funciton(){
+doSomethingAsync().then(function(){
   return doSomethingElseAsync();
 }).then(function(result) {
   doSomethingWithResult(result)
